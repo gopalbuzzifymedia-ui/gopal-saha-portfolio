@@ -147,12 +147,24 @@ export default function Home() {
     GOPAL
   </span>
 </div>
-          <nav className="hidden items-center gap-8 text-lg font-medium md:flex">
-            <a href="#work" className="hover:text-[#123f70]">Work</a>
-            <a href="#about" className="hover:text-[#123f70]">About</a>
-            <a href="#services" className="hover:text-[#123f70]">Services</a>
-            <a href="#contact" className="rounded-full bg-[#123f70] px-6 py-3 text-white">Let's work together</a>
-          </nav>
+<nav className="hidden items-center gap-8 text-lg font-medium md:flex">
+  <a href="#work" className="hover:text-[#123f70]">Work</a>
+
+  <a
+    href="/resume/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#123f70]"
+  >
+    Resume
+  </a>
+
+  <a href="#about" className="hover:text-[#123f70]">About</a>
+  <a href="#services" className="hover:text-[#123f70]">Services</a>
+  <a href="#contact" className="rounded-full bg-[#123f70] px-6 py-3 text-white">
+    Let's work together
+  </a>
+</nav>
         </div>
       </header>
 
