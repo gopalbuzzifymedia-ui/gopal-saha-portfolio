@@ -198,6 +198,42 @@ export default function Home() {
 
       <section id="services" className="border-b border-[#dfe5ec]"><div className="mx-auto max-w-7xl px-6 py-24 lg:px-10"><p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#123f70]">Services</p><h2 className="mt-4 text-4xl font-bold tracking-[-0.03em] sm:text-5xl">Visual systems that make information easier to understand.</h2><div className="mt-12 grid gap-5 md:grid-cols-3">{[{title:'Scientific Illustration',text:'Detailed anatomy, biology and research-based visual communication.'},{title:'Information Design',text:'Infographics, comparison charts, maps and educational systems.'},{title:'Visual Storytelling',text:'Clear visual narratives for publishing, education and digital media.'}].map((service) => <div key={service.title} className="rounded-2xl border border-[#dbe3eb] bg-white p-7"><h3 className="text-xl font-bold">{service.title}</h3><p className="mt-3 leading-7 text-[#687587]">{service.text}</p></div>)}</div></div></section>
 
+      <section id="resume" className="border-b border-[#dfe5ec] bg-white">
+  <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
+    <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#123f70]">
+      Resume
+    </p>
+
+    <h2 className="mt-4 text-4xl font-bold tracking-[-0.03em] sm:text-5xl">
+      Download My Resume
+    </h2>
+
+    <p className="mt-6 max-w-3xl text-lg leading-8 text-[#687587]">
+      View or download my latest resume, including 13+ years of experience in
+      scientific illustration, graphic design, educational publishing, medical
+      illustration and visual communication.
+    </p>
+
+    <div className="mt-10 flex flex-wrap gap-4">
+      <a
+        href="/resume/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-full bg-[#123f70] px-6 py-4 font-semibold text-white"
+      >
+        View Resume
+      </a>
+
+      <a
+        href="/resume/resume.pdf"
+        download
+        className="rounded-full border border-[#123f70] px-6 py-4 font-semibold text-[#123f70]"
+      >
+        Download Resume
+      </a>
+    </div>
+  </div>
+</section>
       <section id="contact" className="bg-[#123f70] text-white">
   <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
     <p className="text-sm font-semibold uppercase tracking-[0.22em] text-white/70">
