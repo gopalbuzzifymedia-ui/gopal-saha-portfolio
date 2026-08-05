@@ -174,10 +174,31 @@ export default function Home() {
             <p className="mb-6 text-sm font-semibold uppercase tracking-[0.22em] text-[#123f70]">Scientific . Character Illustrator · Graphic Designer</p>
             <h1 className="max-w-3xl text-5xl font-bold leading-[0.98] tracking-[-0.04em] sm:text-6xl lg:text-7xl">I turn complex ideas into <span className="text-[#123f70]">clear visual stories.</span></h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-[#5c6b7c]">13+ years of experience creating scientific illustrations, animal anatomy, medical diagrams, educational infographics, coloring pages, character illustrations and publication-ready visual systems.</p>
-            <div className="mt-10 flex flex-wrap gap-3">
-              <a href="#work" className="inline-flex items-center gap-2 rounded-full bg-[#123f70] px-6 py-4 text-sm font-semibold text-white">Explore selected work <ArrowUpRight size={17} /></a>
-              <a href="#contact" className="rounded-full border border-[#d6dee8] px-6 py-4 text-sm font-semibold">Contact me</a>
-            </div>
+<div className="mt-10 flex flex-wrap gap-3">
+  <a
+    href="#work"
+    className="inline-flex items-center gap-2 rounded-full bg-[#123f70] px-6 py-4 text-sm font-semibold text-white"
+  >
+    Explore selected work
+    <ArrowUpRight size={17} />
+  </a>
+
+  <a
+    href="/resume/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-full border border-[#d6dee8] px-6 py-4 text-sm font-semibold"
+  >
+    View Resume
+  </a>
+
+  <a
+    href="#contact"
+    className="rounded-full border border-[#d6dee8] px-6 py-4 text-sm font-semibold"
+  >
+    Contact Me
+  </a>
+</div>
             <div className="mt-12 grid max-w-xl grid-cols-3 border-t border-[#dfe5ec] pt-8">
               <div><div className="text-3xl font-bold text-[#123f70]">13+</div><div className="text-sm text-[#6b7786]">Years experience</div></div>
               <div><div className="text-3xl font-bold text-[#123f70]">200+</div><div className="text-sm text-[#6b7786]">Projects</div></div>
